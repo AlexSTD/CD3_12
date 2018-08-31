@@ -533,6 +533,7 @@
   <catalogs>Catalog.ЗначенияФормата</catalogs>
   <catalogs>Catalog.ИдентификаторыОбъектовМетаданных</catalogs>
   <catalogs>Catalog.ИдентификаторыОбъектовРасширений</catalogs>
+  <catalogs>Catalog.ИсточникиДанных</catalogs>
   <catalogs>Catalog.Конвертации</catalogs>
   <catalogs>Catalog.Конфигурации</catalogs>
   <catalogs>Catalog.Объекты</catalogs>
