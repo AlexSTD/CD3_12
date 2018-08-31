@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5298b8ce-8aa1-4f70-933c-6cdec3cb0a07">
+  <name>Администрирование</name>
+  <synonym>
+    <key>ru</key>
+    <value>Администрирование</value>
+  </synonym>
+  <comment></comment>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>DataProcessor.ПанельАдминистрированияБСП</content>
+  <content>CommonCommand.ОткрытьНастройкиВерсионирования</content>
+  <parentSubsystem>Subsystem.Администрирование</parentSubsystem>
+</mdclass:Subsystem>

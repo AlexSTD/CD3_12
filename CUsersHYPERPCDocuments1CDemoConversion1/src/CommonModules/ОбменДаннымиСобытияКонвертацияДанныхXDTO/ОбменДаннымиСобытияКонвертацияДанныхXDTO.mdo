@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a5e5d6b6-1e3e-4e25-8ecb-c1215a60dcc5">
+  <name>ОбменДаннымиСобытияКонвертацияДанныхXDTO</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен данными события конвертация данных XDTO</value>
+  </synonym>
+  <comment></comment>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

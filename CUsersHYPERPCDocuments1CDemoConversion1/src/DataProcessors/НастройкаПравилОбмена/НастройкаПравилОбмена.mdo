@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2c6e8405-398e-481e-b71b-136cd4a29675">
+  <producedTypes>
+    <objectType typeId="a31abbdb-f34f-4288-af55-86d3273d7fbe" valueTypeId="96f7a9ae-92b4-42ef-b8d7-16849d699b5c"/>
+    <managerType typeId="51c45511-42db-4483-916e-5cb23838f445" valueTypeId="83860783-86ff-413e-ac67-3fd7e17fff39"/>
+  </producedTypes>
+  <name>НастройкаПравилОбмена</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройка правил обмена</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.НастройкаПравилОбмена.Form.ОсновнаяФорма</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="fe23a79b-b809-474c-b1c3-dad8d531b21f">
+    <name>Конвертация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конвертация</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Конвертации</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Конвертация, для которой настраиваются правила</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="2f7ef4b7-5d38-4500-bf04-86b395fd1dca">
+    <name>ОсновнаяФорма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная форма</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

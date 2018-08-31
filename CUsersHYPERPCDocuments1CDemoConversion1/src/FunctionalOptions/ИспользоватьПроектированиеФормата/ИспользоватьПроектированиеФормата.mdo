@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5b4541a6-f99d-4991-aee2-70219ef0659c">
+  <name>ИспользоватьПроектированиеФормата</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать проектирование формата</value>
+  </synonym>
+  <comment></comment>
+  <location>Constant.ИспользоватьПроектированиеФормата</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.ПроектныеРешения</content>
+  <content>Catalog.ГруппировкиОбъектовФормата</content>
+  <content>Catalog.Требования</content>
+  <content>DataProcessor.РедактированиеОписанияОбъектовИСвойствФормата</content>
+  <content>Catalog.Описания</content>
+  <content>Catalog.ЭлементыОписания</content>
+</mdclass:FunctionalOption>

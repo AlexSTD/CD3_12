@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3764da5f-03da-4f1d-b2b4-e2ce5a61cc5d">
+  <producedTypes>
+    <objectType typeId="38bff570-1b00-4919-906c-851858d25e3b" valueTypeId="3046e1f0-3b41-4cd2-b460-fde2bf51bce2"/>
+    <managerType typeId="6c248b92-8b1b-4cec-a42a-84c2b4bb693b" valueTypeId="fdc9e25e-8d0f-4768-8931-a9cd38ecef48"/>
+  </producedTypes>
+  <name>ОбособлениеКонвертации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обособление конвертации</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ОбособлениеКонвертации.Form.Форма</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="067ebddc-8bd8-435e-b95a-f6aa2d7b2141">
+    <name>Конвертация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конвертация</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Конвертации</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Конвертация, элементы которой будут обособлены</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <forms uuid="74883144-d4c9-4b54-b85e-957339245df2">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8881d02e-4b15-4cbc-a042-03bcf55e5061">
+  <producedTypes>
+    <objectType typeId="2d092d82-a039-4fd9-a6f9-9688418b9db6" valueTypeId="08b04262-df77-4fb0-b47f-bd9771653159"/>
+    <managerType typeId="982dda08-ec86-48fd-96ec-8692294a439e" valueTypeId="e89f68a1-ad7c-409b-99b0-1f9a6016383e"/>
+  </producedTypes>
+  <name>ЗагрузкаПравилСинхронизацииИзФайлов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка правил синхронизации из файлов</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ЗагрузкаПравилСинхронизацииИзФайлов.Form.Форма</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="75530727-72b4-483a-911a-95a331be9f66">
+    <name>КаталогОбмена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Каталог обмена</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>500</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Каталог обмена, содержащий файлы</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="6305f774-6371-4eda-9aea-b9ee3f25c46e">
+    <name>Конвертация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конвертация</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Конвертации</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Конвертация, для которой происходит загрузка</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="9e2934d1-ae60-4b31-9fa7-cbf640bb64f7">
+    <name>ВерсияФормата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия формата</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ВерсииФормата</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Версия формата, для которой предназначены правила</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="060c61bd-31ee-4269-b12a-c3832feed736">
+    <name>ПОД</name>
+    <synonym>
+      <key>ru</key>
+      <value>ПОД</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Загружать правила обработки данных</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="11106fd2-f8a4-4e0c-95df-dd798fa87a97">
+    <name>ПКО</name>
+    <synonym>
+      <key>ru</key>
+      <value>ПКО</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Загружать правила конвертации объектов</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="6b66f36c-5a5b-46d9-8b46-1244d2f7e89d">
+    <name>ПКПД</name>
+    <synonym>
+      <key>ru</key>
+      <value>ПКПД</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Загружать правила конвертации предопределенных данных</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="90d4dcec-4f4c-4651-9d23-ce86d2824494">
+    <name>ПараметрыКонвертации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Параметры конвертации</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Загружать параметры конвертации</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="7bb964e2-26bf-4f64-8cd7-23490337321e">
+    <name>Обработчики</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обработчики</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Загружать обработчики</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="c3136741-3d9a-46f7-b216-eea9dfb71e64">
+    <name>ИмяФайлаМодульМенеджера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя файла модуль менеджера</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>500</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Полное имя файла, содержащего модуль менеджера</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="9d5f2ce9-388d-4f2c-bc09-e12cf6f05d43">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

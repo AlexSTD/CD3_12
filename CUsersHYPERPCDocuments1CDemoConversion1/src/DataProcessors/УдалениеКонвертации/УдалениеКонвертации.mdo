@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a170ae3a-e40a-47ec-8aa8-e3c880dd48db">
+  <producedTypes>
+    <objectType typeId="431e0c95-dd27-4ef4-ab0f-8ea3524f601a" valueTypeId="53196e37-ef79-4af4-b5b3-570e4cf2879d"/>
+    <managerType typeId="ea4faf85-a415-40f7-87ab-a58222dc631b" valueTypeId="facfc342-62bc-4878-8a57-ea70fe381759"/>
+  </producedTypes>
+  <name>УдалениеКонвертации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Удаление конвертации</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.УдалениеКонвертации.Form.Форма</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="ad9760be-c730-406c-9fe2-adad4001e48a">
+    <name>Конвертация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конвертация</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Конвертации</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Удаляемая конвертация</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="30e4e562-efe2-4bdd-ab63-eff845e46693">
+    <name>НепосредственноеУдаление</name>
+    <synonym>
+      <key>ru</key>
+      <value>Непосредственное удаление</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Непосредственное удаление объектов</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="0a4a7d77-93ee-4cc4-b9c9-db49391bae40">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

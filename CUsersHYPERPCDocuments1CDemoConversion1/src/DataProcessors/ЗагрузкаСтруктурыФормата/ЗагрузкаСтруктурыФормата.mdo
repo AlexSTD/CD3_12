@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="06219677-e0fa-480d-aea7-4dc75b0db335">
+  <producedTypes>
+    <objectType typeId="b0f65795-3b43-40c9-959d-14fde4157ac2" valueTypeId="63547a7e-82d8-4542-a1bd-6a1d2df1db72"/>
+    <managerType typeId="503198e8-3168-4e45-95a7-802c24c16eef" valueTypeId="05250420-d5ac-47ae-ab14-4d693b9853d7"/>
+  </producedTypes>
+  <name>ЗагрузкаСтруктурыФормата</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка структуры формата</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ЗагрузкаСтруктурыФормата.Form.Форма</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="b7a5e84a-a197-4f7c-a4c4-18498f6977d8">
+    <name>ИмяФайлаЗагрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя файла загрузки</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Имя файла со структурой формата</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="787e6708-ceee-426f-bd77-ea0fe130fa67">
+    <name>ВерсияФормата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия формата</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ВерсииФормата</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Версия формата, структура которого загружается</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="38d2ad77-4e2b-4ff1-b2be-11cbd5d3693e">
+    <name>ДобавлятьТолькоНовыеОбъектыСвойстваЗначения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Добавлять только новые объекты свойства значения</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Добавлять только новые объекты, свойства, значения</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="d8678993-210a-4c08-95b4-a891a1137659">
+    <name>ИмяОсновногоПакетаXDTO</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя основного пакета XDTO</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Имя пакета XDTO, который является основным</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="ae30a65f-5e3b-47a9-b91b-6ba7ae68f231">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

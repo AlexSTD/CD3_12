@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExchangePlan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bdb54710-a799-4202-a085-a80068dc7bc4" thisNode="03cffc73-5f7d-4cbf-993b-eed5066ea3c2">
+  <producedTypes>
+    <objectType typeId="cf3bcf34-5b94-4d57-ac8d-471363da04a8" valueTypeId="02dcd67c-ca39-4ed4-b879-02748b897a33"/>
+    <refType typeId="08a40b7a-5d29-46cd-9882-501ae2e5165e" valueTypeId="9a70e450-b7dc-4035-82d3-767422af31bd"/>
+    <selectionType typeId="018a0d61-dcaf-495f-9ed7-afcf867db896" valueTypeId="891034ea-f233-4b70-97a5-1c8352de3468"/>
+    <listType typeId="35cc73bd-edb0-4ed3-a413-511239ea308e" valueTypeId="34317104-3cb5-4b2d-9e56-d91313caa0d1"/>
+    <managerType typeId="3c334ce6-b62c-46bb-84a3-8de641f293d5" valueTypeId="435bdd51-96a7-48ad-953e-1f37c58e3f52"/>
+  </producedTypes>
+  <name>Полный</name>
+  <synonym>
+    <key>ru</key>
+    <value>Полный</value>
+  </synonym>
+  <comment></comment>
+  <inputByString>ExchangePlan.Полный.StandardAttribute.Description</inputByString>
+  <inputByString>ExchangePlan.Полный.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Полный</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Полный</value>
+  </listPresentation>
+  <codeLength>9</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>25</descriptionLength>
+  <content>
+    <mdObject>Catalog.Конфигурации</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ВерсииОбъектов</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.НастройкиПодчиненногоУзлаРИБ</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ИдентификаторыОбъектовМетаданных</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ДанныеОбработанныеВЦентральномУзлеРИБ</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.ИспользоватьВерсионированиеОбъектов</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.СоставыКонвертаций</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.Пользователи</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ВерсииПодсистем</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ВерсииФормата</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.ОтложенноеОбновлениеЗавершеноУспешно</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.НастройкиПользователя</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.Требования</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ГруппировкиОбъектовФормата</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ВнешниеПользователи</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ТипыФормата</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.ДанныеДляОтложенногоОбновления</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ГруппыПравил</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.СведенияОБлокируемыхОбъектах</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ГруппыПользователей</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.Алгоритмы</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.ИспользоватьВнешнихПользователей</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ПараметрыРаботыПрограммы</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.Объекты</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.ИспользоватьГруппыПользователей</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.СвойстваФормата</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ОбъектыФормата</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ПроектныеРешения</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ПравилаОбработкиДанных</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ЗначенияФормата</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.Значения</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ГруппыВнешнихПользователей</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ПравилаКонвертацииОбъектов</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.СведенияОбОбновленииИБ</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.ИспользоватьПроектированиеФормата</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ПравилаКонвертацииПредопределенныхДанных</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.ОтложенноеОбновлениеВГлавномУзлеЗавершеноУспешно</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ЭлементыОписания</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.Конвертации</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.Описания</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.ДетализироватьОбновлениеИБВЖурналеРегистрации</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.Свойства</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.ИспользоватьУдалениеПомеченныхОбъектов</mdObject>
+  </content>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>ExchangePlan.Полный.Form.ФормаУзла</defaultObjectForm>
+  <distributedInfoBase>true</distributedInfoBase>
+  <attributes uuid="af8b9dac-2ec2-4fa7-806b-c607851e1ac0">
+    <name>ДляПубликации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Для публикации</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="980e76cd-ab6d-4a56-8c1e-29a8f697b5a5">
+    <name>ИспользоватьОтборПоКонвертациям</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать отбор по конвертациям</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="1fb090e1-fb19-42b0-b12d-df3fa4c906ca">
+    <name>РежимВыгрузкиПриНеобходимости</name>
+    <synonym>
+      <key>ru</key>
+      <value>Режим выгрузки при необходимости</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>EnumRef.РежимыВыгрузкиОбъектовОбмена</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <tabularSections uuid="41375b81-e0e5-480c-9d1e-e65755c539bf">
+    <producedTypes>
+      <objectType typeId="12762e56-9fcc-44cb-99d1-63ff85bb00a3" valueTypeId="193d493f-159e-4373-b1dd-55de514581f5"/>
+      <rowType typeId="25675a6b-fbb9-4951-a0e6-1896dadfd00d" valueTypeId="f27393cc-8fd5-4d4f-96fc-3232700e8841"/>
+    </producedTypes>
+    <name>Конвертации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конвертации</value>
+    </synonym>
+    <comment></comment>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <comment></comment>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="498be99f-6f4f-458c-b628-c8ca0d001fb6">
+      <name>Конвертация</name>
+      <synonym>
+        <key>ru</key>
+        <value>Конвертация</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.Конвертации</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="0cda7d14-2577-4d09-aab2-2c339f49d0a9">
+    <name>ПодробнаяИнформация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подробная информация</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="cc071367-a836-4b55-a587-616468d5d04d">
+    <name>ФормаНастройкиУзла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма настройки узла</value>
+    </synonym>
+    <comment></comment>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="c47567ac-91cb-4748-921a-d233b1982b1c">
+    <name>ФормаСозданияНачальногоОбраза</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма создания начального образа</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="cea7082b-ede8-4bca-93c7-7a5704f08503">
+    <name>ФормаУзла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма узла</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="219a1c5c-2150-430b-ac01-d7f511395968">
+    <name>ФормаВыбораЗначений</name>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+  </forms>
+  <templates uuid="0ebce5ab-0ef1-4ba1-9ef9-676ec7bc4226">
+    <name>ПодробнаяИнформация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подробная информация</value>
+    </synonym>
+    <comment></comment>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="62961c2b-ab9d-47ba-bc18-c0bdc70ccd62">
+    <name>ПравилаРегистрации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Правила регистрации</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+</mdclass:ExchangePlan>

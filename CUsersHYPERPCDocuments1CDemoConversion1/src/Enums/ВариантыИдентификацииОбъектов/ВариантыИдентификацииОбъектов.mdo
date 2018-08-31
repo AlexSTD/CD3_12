@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="693f9175-a81a-4162-adef-f6ca9d53b9ce">
+  <producedTypes>
+    <refType typeId="3d299eae-044f-4c1d-a47d-fa97db6149db" valueTypeId="326e78b8-6c1a-40ec-83a7-4dbaaa593ebb"/>
+    <listType typeId="1fec0228-c6d8-4881-abbd-0ec2020bd28e" valueTypeId="8b0d09ad-0266-4e4c-aa38-672e148ae5fa"/>
+    <managerType typeId="a4d26704-7591-426e-9942-42e77752a6ad" valueTypeId="7f8d1e47-4971-45fd-99a2-d27137724a5d"/>
+  </producedTypes>
+  <name>ВариантыИдентификацииОбъектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Варианты идентификации объектов</value>
+  </synonym>
+  <comment></comment>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="24e46fdc-3927-4fae-abd4-3fafecd545c1">
+    <name>ПоУникальномуИдентификатору</name>
+    <synonym>
+      <key>ru</key>
+      <value>По уникальному идентификатору</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="423a69bd-30cf-42dc-bf89-e4efae0484cf">
+    <name>ПоПолямПоиска</name>
+    <synonym>
+      <key>ru</key>
+      <value>По полям поиска</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="f9c7c379-959d-4cbb-afa5-f9ec223137d6">
+    <name>СначалаПоУникальномуИдентификаторуПотомПоПолямПоиска</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сначала по уникальному идентификатору потом по полям поиска</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

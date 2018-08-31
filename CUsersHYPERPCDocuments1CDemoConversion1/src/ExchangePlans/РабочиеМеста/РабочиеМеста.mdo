@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExchangePlan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8038ee84-7a9d-4678-9819-4a20d92ee06e" thisNode="ac2b78a1-645a-40e7-845a-1db657e5d905">
+  <producedTypes>
+    <objectType typeId="fc573e01-3cb4-4e3c-91ed-6c6c722dab1f" valueTypeId="d5e1cece-5bce-4b01-a49a-7aba1903122c"/>
+    <refType typeId="2ddbb288-0604-474c-b9d1-25be3253249a" valueTypeId="f80a3197-9720-4580-aad3-06afb38243af"/>
+    <selectionType typeId="bcc4cb9f-f71a-4f0e-9af1-02a1ef218fd2" valueTypeId="bc82f4d0-b5c8-4188-bebb-6651be8350ce"/>
+    <listType typeId="f2a09587-d74f-4845-93a5-b2877513c3c2" valueTypeId="db221e7e-adca-4b06-932f-9e8d467c9bbb"/>
+    <managerType typeId="b63ee942-d9fc-4d8b-b24c-6e8e7fb2f019" valueTypeId="03d2ea7b-2830-4a15-8cee-183efe08118b"/>
+  </producedTypes>
+  <name>РабочиеМеста</name>
+  <synonym>
+    <key>ru</key>
+    <value>Рабочие места</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ExchangePlan.РабочиеМеста.StandardAttribute.Description</inputByString>
+  <inputByString>ExchangePlan.РабочиеМеста.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>ThisNode</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>ReceivedNo</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>SentNo</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Рабочее место</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Рабочие места</value>
+  </listPresentation>
+  <codeLength>9</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>25</descriptionLength>
+  <content>
+    <mdObject>Catalog.Конфигурации</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.СоответствияОбъектовИнформационныхБаз</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.СоставыКонвертаций</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ВерсииФормата</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ГруппыПравил</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.Алгоритмы</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ПравилаОбработкиДанных</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ПравилаКонвертацииОбъектов</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ПравилаКонвертацииПредопределенныхДанных</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ЭлементыОписания</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.Конвертации</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.Описания</mdObject>
+  </content>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>ExchangePlan.РабочиеМеста.Form.ФормаУзла</defaultObjectForm>
+  <forms uuid="047450c0-7c88-4d9b-9f13-cda6e5c6024f">
+    <name>ФормаУзла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма узла</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="83b6033d-caf1-4aec-84c8-b3746ecea74b">
+    <name>ПодробнаяИнформация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подробная информация</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="d9e3cb18-3847-4c40-afb3-165fbf0ed16a">
+    <name>ПравилаОбмена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Правила обмена с &quot;Бухгалтерия предприятия&quot; 3.0</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="692e2c7e-57f1-41d1-9596-02da95edd5ae">
+    <name>ПравилаОбменаКорреспондента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Правила обмена корреспондента с Библиотекой Стандартных Подсистем (демо), версия 2.1.2</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="6d967a7d-d786-4ceb-9cba-ee3afc8a4c67">
+    <name>ПравилаРегистрации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Правила регистрации для обмена с &quot;Бухгалтерия предприятия&quot; 3.0</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="582af6e2-e9c0-4d97-92da-d6769e53de92">
+    <name>ПодробнаяИнформация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подробная информация</value>
+    </synonym>
+    <comment></comment>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+</mdclass:ExchangePlan>

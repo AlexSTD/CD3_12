@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f4443c73-634b-4ad5-80b3-854bcd2a0539">
+  <producedTypes>
+    <objectType typeId="50fca6c8-09c0-49ca-939a-c77c71a31967" valueTypeId="70a5fc81-3e99-4c1c-9de3-7d10e38cc1f0"/>
+    <managerType typeId="b0aeec3f-ecfe-47fc-b308-c7504e0db879" valueTypeId="e3b3c87a-1e92-48fa-9464-693e54de8dd4"/>
+  </producedTypes>
+  <name>ЗагрузкаСтруктурыКонфигурации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка структуры конфигурации</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ЗагрузкаСтруктурыКонфигурации.Form.Форма</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="e0e8eee7-ece2-400e-b962-5a5747c7f174">
+    <name>ИмяФайлаЗагрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя файла загрузки</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Имя файла со структурой конфигурации</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="644041e8-6aa9-487b-a2b0-ed7817875155">
+    <name>Конфигурация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конфигурация</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Конфигурации</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Конфигурация, структура которой загружается</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="7e32675a-e5cc-4edc-80d0-91736e7e2f0c">
+    <name>ДобавлятьТолькоНовыеОбъектыСвойстваЗначения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Добавлять только новые объекты свойства значения</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Добавлять только новые объекты, свойства, значения</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="6a76f3a6-2ecf-4fba-a830-7412fc9868e8">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c5c8da60-bf67-4db2-b17f-922f53d9d447">
+  <producedTypes>
+    <objectType typeId="d04a7a50-7d9d-4d8f-a84d-f8579d8520f4" valueTypeId="bfd25e7f-1ff2-4ccb-8269-1fb774fb26b3"/>
+    <managerType typeId="ff97d241-523d-447a-a14a-377b4748b3c7" valueTypeId="1ebd2498-b8a5-4ff0-b7b0-8cb5171a79f7"/>
+  </producedTypes>
+  <name>ПанельАдминистрированияКД</name>
+  <synonym>
+    <key>ru</key>
+    <value>Панель администрирования КД</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ПанельАдминистрированияКД.Form.Форма</defaultForm>
+  <forms uuid="1e9288b0-704d-4e92-af61-62198cd7e030">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="5f136622-e527-44d2-b264-8ec2dd43cdcb">
+    <name>НастройкиПроектирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки проектирования</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="4f41df8a-3df4-47d2-80a2-7cb43d41686f">
+    <name>ОткрытьНастройкиПроектированияФормата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки проектирования формата</value>
+    </synonym>
+    <comment></comment>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:DataProcessor>

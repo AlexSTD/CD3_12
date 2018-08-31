@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b5a59b10-fa9c-4f86-9ae2-bbbbb71682a8">
+  <producedTypes>
+    <objectType typeId="7c152110-75ee-48a2-9395-ff0d1e374838" valueTypeId="df7276fe-de70-44b8-8e85-125799535617"/>
+    <managerType typeId="2bfb7252-fc2a-4e78-939a-56ee31fcd612" valueTypeId="65742cca-59bc-4767-b26e-df1b3881dffd"/>
+  </producedTypes>
+  <name>СравнениеВерсийФормата</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сравнение версий формата</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.СравнениеВерсийФормата.Form.Форма</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="a9ec8705-067d-404d-9bc9-c46249eab52a">
+    <name>ВерсияФормата1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия формата1</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ВерсииФормата</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Версия формата</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="895ec5ce-3ba3-4277-8c5a-34e135f14e81">
+    <name>ВерсияФормата2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия формата2</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ВерсииФормата</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Версия формата</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="5ca3adcd-c0cd-4cdc-9b78-d2e1f27b3119">
+    <name>ВерсияФормата3</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия формата3</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ВерсииФормата</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Версия формата</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="1cd4840b-4e1a-48f5-8475-8d8d97b6a355">
+    <name>ВерсияФормата4</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия формата4</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ВерсииФормата</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Версия формата</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="1f69d244-2f9f-4c2e-8758-efb0445c7751">
+    <name>ПоказыватьТолькоИзменения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показывать только изменения</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Показывать только изменения в результате сравнения версий</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="86c1ff21-082a-42c8-a278-638660d3012b">
+    <name>ПоказыватьТребования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показывать требования</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Показывать требования, в соответствии с которыми внесены изменения</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="588bbc8b-0688-435e-bf37-deb9a6c98db1">
+    <name>ПоказыватьРасхожденияСПроектнымиРешениями</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показывать расхождения с проектными решениями</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Показывать имеющиеся расхождения с проектными решениями</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="39f65d3d-ecfa-4a51-bda4-e726de97002d">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="ba86b82e-8395-4052-b303-eb88bc3a9602">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+    <comment></comment>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+</mdclass:DataProcessor>

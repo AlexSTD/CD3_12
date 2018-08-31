@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cef60698-470d-485a-9cc8-26d63be75f34">
+  <producedTypes>
+    <managerType typeId="1fcd3d26-f51e-4f9f-b157-f618aec9b985" valueTypeId="f2aee7c9-9430-4ce1-b5f2-b781010db33f"/>
+    <valueManagerType typeId="2ae4cd6f-3fe4-48ea-8cc7-bdfac51fd601" valueTypeId="62571ce0-f93e-4136-ae2b-a0b946daca86"/>
+  </producedTypes>
+  <name>ИспользоватьПроектированиеФормата</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать проектирование формата</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

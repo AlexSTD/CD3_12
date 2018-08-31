@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="32e9fdc3-84e2-499e-a86f-7a1da359021f">
+  <name>ФорматДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Формат данных</value>
+  </synonym>
+  <comment></comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.Форматы</picture>
+  </picture>
+  <content>Catalog.ВерсииФормата</content>
+  <content>Catalog.ЗначенияФормата</content>
+  <content>Catalog.ОбъектыФормата</content>
+  <content>Catalog.СвойстваФормата</content>
+  <content>DataProcessor.ЗагрузкаСтруктурыФормата</content>
+  <content>DataProcessor.ДеревоОбъектовФормата</content>
+  <content>DataProcessor.СравнениеВерсийФормата</content>
+  <content>Catalog.ТипыФормата</content>
+  <subsystems>ПроектированиеФормата</subsystems>
+</mdclass:Subsystem>

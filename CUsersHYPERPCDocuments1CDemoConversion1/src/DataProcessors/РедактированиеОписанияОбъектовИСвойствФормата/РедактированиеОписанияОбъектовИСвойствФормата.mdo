@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b7d56a9e-f985-4a04-8e07-6037a3be159e">
+  <producedTypes>
+    <objectType typeId="5d0326ac-be09-4238-b2d8-f00ae3b9f2d7" valueTypeId="d55211e8-9471-4010-bbac-8e89da448806"/>
+    <managerType typeId="efef11c5-27bc-47ae-99c1-6170dc2516c7" valueTypeId="76671e61-fdc7-4901-beb0-698deadc9dcc"/>
+  </producedTypes>
+  <name>РедактированиеОписанияОбъектовИСвойствФормата</name>
+  <synonym>
+    <key>ru</key>
+    <value>Редактирование описания объектов и свойств формата</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.РедактированиеОписанияОбъектовИСвойствФормата.Form.Форма</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="845f19cb-7a91-4cad-8821-f5994730673f">
+    <name>ВерсияФормата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия формата</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ВерсииФормата</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Версия формата для описания</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="d0cf953f-f214-4116-834d-bc97fe262b83">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

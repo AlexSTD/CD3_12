@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c5199b0b-7730-4676-a817-849ddf2df554">
+  <producedTypes>
+    <objectType typeId="e4de20d4-c2d8-4539-af4b-b57aa17eae6f" valueTypeId="e428ed0d-22b6-456d-8397-e1f7ee434e68"/>
+    <managerType typeId="383ce0ce-ccc6-44d2-b1f4-2e6b6fd7e00d" valueTypeId="d5a7cca8-4ca9-441f-93bd-6adb701732bf"/>
+  </producedTypes>
+  <name>ВыгрузкаМодуляВерсии1</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выгрузка модуля версии 1</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ВыгрузкаМодуляВерсии1.Form.Форма</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="0ea19858-c206-4c9b-8127-40fc2abd28e1">
+    <name>Конвертация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конвертация</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Конвертации</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Конвертация, для которой происходит выгрузка</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="9be9daf7-7b64-481e-af44-9e5f5cd68666">
+    <name>ВыгрузкаДляРасширенногоСинтаксическогоКонтроля</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выгрузка для расширенного синтаксического контроля</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Выгрузка для  последующего синтаксического контроля</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="abd8ddad-0524-40f7-8d88-f5e3f1551c40">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="756de11b-5bf4-4b4d-a002-93ee883c3ed6">
+    <name>ШаблоныТекстовМодулей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шаблоны текстов модулей</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+</mdclass:DataProcessor>

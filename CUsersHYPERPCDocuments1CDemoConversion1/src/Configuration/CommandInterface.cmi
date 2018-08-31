@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <subsystemsOrder>
+    <subsystems>Subsystem.Конфигурации</subsystems>
+    <subsystems>Subsystem.ФорматДанных</subsystems>
+    <subsystems>Subsystem.Конвертации</subsystems>
+    <subsystems>087e1838-2aa0-469d-ae4a-3849851ac9a5</subsystems>
+    <subsystems>Subsystem.Администрирование</subsystems>
+  </subsystemsOrder>
+</cmi:CommandInterface>

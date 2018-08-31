@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="41ae7285-7c92-4178-8bad-3a758613b486">
+  <producedTypes>
+    <objectType typeId="2ebc97e4-3178-432c-86d3-0e7023930e35" valueTypeId="36a39503-cf3f-4478-8ae9-b564e721d3f3"/>
+    <managerType typeId="fa7d52f8-0c62-426e-a651-b91ceac4948d" valueTypeId="276e158d-bcab-4219-b4fc-b565f450fdd4"/>
+  </producedTypes>
+  <name>НастройкаПравилКонвертацииСвойств</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройка правил конвертации свойств</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.НастройкаПравилКонвертацииСвойств.Form.Форма</defaultForm>
+  <attributes uuid="129f5aa5-95dc-465a-90ca-a9ced4d98d7e">
+    <name>ПравилоКонвертацииОбъекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Правило конвертации объекта</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ПравилаКонвертацииОбъектов</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Правило конвертации объекта, для которого настраиваются правила конвертации свойств</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <tabularSections uuid="fa5d520f-2207-4f90-871f-3af30e3973b9">
+    <producedTypes>
+      <objectType typeId="7f0ac00c-2f47-4e8d-8bf0-6700c80cd84d" valueTypeId="c3958741-3d0a-4c22-b444-2133e530f011"/>
+      <rowType typeId="68472ab5-f151-449e-96f6-47fed6e42105" valueTypeId="75562885-ac3b-48b9-97bd-0304336df865"/>
+    </producedTypes>
+    <name>СопоставлениеСвойств</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сопоставление свойств</value>
+    </synonym>
+    <comment></comment>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <comment></comment>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="72dcd787-145b-405f-9408-8a9fac91d07c">
+      <name>СоздатьПКС</name>
+      <synonym>
+        <key>ru</key>
+        <value>Создать правило конвертации свойства</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Требуется создать правило конвертации свойства</value>
+      </toolTip>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:BooleanValue"/>
+    </attributes>
+    <attributes uuid="8ccf163e-1d2a-4461-8944-7ac5b41c2d68">
+      <name>СвойствоКонфигурации</name>
+      <synonym>
+        <key>ru</key>
+        <value>Свойство конфигурации</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Наименование свойства конфигурации</value>
+      </toolTip>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillFromFillingValue>true</fillFromFillingValue>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="1f79a163-a704-4c58-92b7-105e3d8e4f42">
+      <name>СвойствоФормата</name>
+      <synonym>
+        <key>ru</key>
+        <value>Свойство формата</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Наименование свойства формата (для поддержки различных версий формата)</value>
+      </toolTip>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="c3a33c8d-0eeb-4a6e-8c0f-bb568b86830c">
+      <name>ТипСвойстваКонфигурации</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тип свойства конфигурации</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Тип свойства конфигурации строкой</value>
+      </toolTip>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="3236b497-da4c-41a0-b6dd-03266a927d3a">
+      <name>ТипСвойстваФормата</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тип свойства формата</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Тип свойства формата строкой</value>
+      </toolTip>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="d6fa0770-9b32-4326-ada4-c686aa7d46ae">
+      <name>ПравилоКонвертации</name>
+      <synonym>
+        <key>ru</key>
+        <value>Правило конвертации</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.ПравилаКонвертацииОбъектов</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Правило конвертации объекта для свойства</value>
+      </toolTip>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="97e6b8dd-b274-489b-ac34-816e69dd8b81">
+      <name>Сопоставлено</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сопоставлено</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Свойство сопоставлено</value>
+      </toolTip>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:BooleanValue"/>
+    </attributes>
+    <attributes uuid="8f0bd185-96e9-4f35-8c5c-e8b48b647bcc">
+      <name>ЭтоТЧ</name>
+      <synonym>
+        <key>ru</key>
+        <value>Это ТЧ</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Это табличная  часть</value>
+      </toolTip>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:BooleanValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="c0298bdb-e5ad-457e-8aed-3bf1552dcf97">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2ababc84-dae1-47a8-b4a6-35282bce9d77">
+  <name>РабочиеМестаЗарегистрироватьИзменение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Рабочие места зарегистрировать изменение</value>
+  </synonym>
+  <comment></comment>
+  <source>
+    <types>CatalogObject.СоставыКонвертаций</types>
+    <types>CatalogObject.Конфигурации</types>
+    <types>CatalogObject.ЭлементыОписания</types>
+    <types>CatalogObject.ПравилаОбработкиДанных</types>
+    <types>CatalogObject.Описания</types>
+    <types>CatalogObject.Алгоритмы</types>
+    <types>CatalogObject.Конвертации</types>
+    <types>CatalogObject.ПравилаКонвертацииПредопределенныхДанных</types>
+    <types>CatalogObject.ПравилаКонвертацииОбъектов</types>
+    <types>CatalogObject.ВерсииФормата</types>
+    <types>CatalogObject.ГруппыПравил</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.ОбменДаннымиСобытияКонвертацияДанныхXDTO.РабочиеМестаПередЗаписью</handler>
+</mdclass:EventSubscription>

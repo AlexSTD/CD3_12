@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e228e8a8-9a2a-484c-bc64-fe2ba7ff40b6">
+  <producedTypes>
+    <objectType typeId="ecc19f5d-6d94-459a-ac92-34df74a53a02" valueTypeId="c216cdf5-7288-4ae0-a177-c76d3f762430"/>
+    <managerType typeId="58d8fb52-7e25-4dda-82e4-1eb72f87e532" valueTypeId="e037384c-6e60-42e9-9bea-186849d5a2d8"/>
+  </producedTypes>
+  <name>ДеревоОбъектовФормата</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дерево объектов формата</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ДеревоОбъектовФормата.Form.Форма</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="c1b4bf32-1001-47c8-94ab-96c0d0a496a8">
+    <name>ВерсияФормата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия формата</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ВерсииФормата</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Версия формата для построения дерева</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="36ab3978-da94-408f-973a-b5859a6f5edf">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="46fff22f-f8cf-460c-8b5a-71451e0b61c2">
+  <producedTypes>
+    <objectType typeId="2428f511-82c7-4d03-bbbb-5d1773e604a8" valueTypeId="760e1fb8-7c75-4a31-b78e-cd7a457d1331"/>
+    <managerType typeId="b5734cbe-2950-49af-9ebc-e0d8119d1fee" valueTypeId="f7a30d11-9a72-491f-a244-bae7f4fe9a6e"/>
+  </producedTypes>
+  <name>ЗагрузкаОбработчиков</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка обработчиков</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ЗагрузкаОбработчиков.Form.Форма</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="30c646cc-e8f0-4c93-b72a-c1070a415927">
+    <name>Конвертация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конвертация</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Конвертации</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Конвертация, для которой загружаются обработчики</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="c931c60b-1ca6-43ce-8e11-44c4a3319723">
+    <name>СоздаватьОтсутствующиеАлгоритмы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Создавать отсутствующие алгоритмы</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Требуется создавать отсутствующие алгоритмы</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="82339b07-2914-49b8-b364-02a5ef44ae8d">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ae7ad1de-1b7f-4d34-931f-cc4546703d33">
+  <producedTypes>
+    <refType typeId="e5bfaa4c-81d7-4d9c-82a4-6c3a3e104b8b" valueTypeId="1b517d7b-1a08-486d-bf49-f69aaacc6ba2"/>
+    <listType typeId="4d8408cf-3fa5-4945-910b-a04c8297227e" valueTypeId="bc1b0502-2448-4f0a-8ce8-a113e8ecb66c"/>
+    <managerType typeId="e3e84ef9-0321-43f8-9644-d1c917a99f5a" valueTypeId="5fc63795-ff49-4388-a9ac-8f4b0c9506f6"/>
+  </producedTypes>
+  <name>ТипыОбщихРеквизитов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы общих реквизитов</value>
+  </synonym>
+  <comment></comment>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="be563316-f621-4e8d-92e7-98096631db47">
+    <name>ОбщаяТабличнаяЧасть</name>
+    <synonym>
+      <key>ru</key>
+      <value>Общая табличная часть</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="485137e6-5422-44b1-a99a-431c76e0db1a">
+    <name>ГруппаОбщихСвойств</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа общих свойств</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="12eeb29a-6bf1-4190-a8e0-f257f0b5a864">
+    <name>КлючевыеСвойства</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ключевые свойства</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

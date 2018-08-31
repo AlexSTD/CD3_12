@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dc646426-5c25-442b-bdbf-d8704c632c2c">
+  <name>ПроектированиеФормата</name>
+  <synonym>
+    <key>ru</key>
+    <value>Проектирование формата</value>
+  </synonym>
+  <comment></comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.Требования</content>
+  <content>Catalog.ПроектныеРешения</content>
+  <content>Enum.ОперацииСОбъектамиСвойствамиФормата</content>
+  <content>Catalog.ГруппировкиОбъектовФормата</content>
+  <content>FunctionalOption.ИспользоватьПроектированиеФормата</content>
+  <content>Constant.ИспользоватьПроектированиеФормата</content>
+  <content>Catalog.Описания</content>
+  <content>Catalog.ЭлементыОписания</content>
+  <content>DataProcessor.РедактированиеОписанияОбъектовИСвойствФормата</content>
+  <content>14a5a0f2-9bcb-4cdb-8a37-a9184ac95823</content>
+  <parentSubsystem>Subsystem.ФорматДанных</parentSubsystem>
+</mdclass:Subsystem>

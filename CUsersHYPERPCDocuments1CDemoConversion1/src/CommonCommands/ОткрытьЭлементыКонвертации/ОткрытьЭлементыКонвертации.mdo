@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f030f0cd-4f10-4395-ae4b-7fb60a09b4b9">
+  <name>ОткрытьЭлементыКонвертации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Элементы конвертации</value>
+  </synonym>
+  <comment></comment>
+  <group>FormNavigationPanelGoTo</group>
+  <commandParameterType>
+    <types>CatalogRef.ПравилаКонвертацииПредопределенныхДанных</types>
+    <types>CatalogRef.ПравилаКонвертацииОбъектов</types>
+    <types>CatalogRef.Алгоритмы</types>
+    <types>CatalogRef.ПравилаОбработкиДанных</types>
+  </commandParameterType>
+  <representation>Auto</representation>
+  <shortcut></shortcut>
+</mdclass:CommonCommand>

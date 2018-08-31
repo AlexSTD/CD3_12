@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6719fc3e-2c69-40bf-85fa-7254ce79edb6">
+  <producedTypes>
+    <selectionType typeId="e9ee6b7d-1ca2-421f-9635-655a3ca98bb2" valueTypeId="14088bf8-b737-495c-ae85-504087613e14"/>
+    <listType typeId="ff6778cf-3cac-4213-9986-a842edb59458" valueTypeId="766df372-cb93-44a9-94e6-b37479782a4f"/>
+    <managerType typeId="952bc397-ef3a-4335-a3d3-d2a5961a0762" valueTypeId="bd08195d-93b8-40e6-93b4-c2d8c204d591"/>
+    <recordSetType typeId="3249ddbb-c6b6-4151-99f6-babd8ffc29a9" valueTypeId="db2b6a97-3e4e-4d9f-b8d1-832c0b2c786d"/>
+    <recordKeyType typeId="398fd5ba-03b6-4833-ab41-a4715ff12f92" valueTypeId="3a336fb0-bf52-40bc-a651-ff5368ada246"/>
+    <recordType typeId="523b63f3-38ca-4048-be76-b8fef6b09abd" valueTypeId="dbdfe763-176a-4841-9ed0-9a41df3ded24"/>
+    <recordManagerType typeId="a191c1f6-8c7b-43c0-80ac-f5feb39d157a" valueTypeId="db8d15ad-8f3a-403b-b2e5-ca99bc211f61"/>
+  </producedTypes>
+  <name>НастройкиПользователя</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки пользователя</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="0d9d3f48-f0b2-47dc-9c1d-dd3fad24109c">
+    <name>ТекущаяКонфигурацияИсточник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текущая конфигурация источник</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Конфигурации</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="e4d41dbc-7f71-4d25-8e5c-a3866d2ba2d0">
+    <name>ТекущаяКонфигурацияПриемник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текущая конфигурация приемник</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Конфигурации</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="49447652-f7c9-47bd-9ab3-6c863859631b">
+    <name>ВРаботе</name>
+    <synonym>
+      <key>ru</key>
+      <value>В работе</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+</mdclass:InformationRegister>

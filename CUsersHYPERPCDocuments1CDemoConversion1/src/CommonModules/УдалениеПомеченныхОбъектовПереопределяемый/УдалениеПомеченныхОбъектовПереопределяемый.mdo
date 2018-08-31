@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9ad1696c-34e3-440e-86e9-06b8573ece82">
+  <name>УдалениеПомеченныхОбъектовПереопределяемый</name>
+  <synonym>
+    <key>ru</key>
+    <value>Удаление помеченных объектов переопределяемый</value>
+  </synonym>
+  <comment></comment>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

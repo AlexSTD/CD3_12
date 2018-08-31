@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6ae634cc-f617-4b33-8d47-cb005ce0f131">
+  <name>КонвертацияДанныхXDTOКлиент</name>
+  <synonym>
+    <key>ru</key>
+    <value>Конвертация данных XDTOКлиент</value>
+  </synonym>
+  <comment></comment>
+  <clientManagedApplication>true</clientManagedApplication>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d9a7271f-7317-413c-a65f-19e452fafd0e">
+  <producedTypes>
+    <objectType typeId="7b43e83c-c969-4e58-b3aa-514e0f8c3d03" valueTypeId="6b5dd6eb-22f5-4ad6-a144-4f8a949f96e7"/>
+    <managerType typeId="e0cd19d1-3a73-429f-95bd-b8793b2f9011" valueTypeId="851df1ed-9be7-4254-a090-894d423daefe"/>
+  </producedTypes>
+  <name>ПанельАдминистрированияБСП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Панель администрирования БСП</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ПанельАдминистрированияБСП.Form.Форма</defaultForm>
+  <forms uuid="898535ff-50cd-464a-aadc-5e4f9de15b04">
+    <name>НастройкиПользователейИПрав</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки пользователей и прав</value>
+    </synonym>
+    <comment></comment>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="c315aba1-ab84-4a16-a15a-9643474cff08">
+    <name>ПоддержкаИОбслуживание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поддержка и обслуживание</value>
+    </synonym>
+    <comment></comment>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="2f8a5b9d-ab86-492b-85d1-5a28535b2ebc">
+    <name>ОбщиеНастройки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Общие настройки</value>
+    </synonym>
+    <comment></comment>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="b7ed58ba-f71c-403a-9178-87080c37060c">
+    <name>НастройкиСинхронизацииДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки синхронизации данных</value>
+    </synonym>
+    <comment></comment>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="0ff92a66-562e-471b-903b-ad5d0a46ed2d">
+    <name>НастройкиВерсионирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки версионирования</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="7ccabf74-d92f-4463-a851-b4ac93ad0fda">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="cac31273-a867-4412-b4ab-33aa3b0e545f">
+    <name>НастройкиПроектирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки проектирования</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="7bedeaf8-6f6a-4d60-a0ad-9df33762a5d4">
+    <name>ПоддержкаИОбслуживание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поддержка и обслуживание</value>
+    </synonym>
+    <comment></comment>
+    <group>NavigationPanelImportant</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <toolTip>
+      <key>ru</key>
+      <value>Контроль за состоянием программы, резервное копирование и восстановление, оптимизация быстродействия.</value>
+    </toolTip>
+    <shortcut></shortcut>
+  </commands>
+  <commands uuid="b62eecf6-6ee3-4a70-a4d6-3f064ae35c43">
+    <name>ОбщиеНастройки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Общие настройки</value>
+    </synonym>
+    <comment></comment>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <toolTip>
+      <key>ru</key>
+      <value>Изменение заголовка программы, настройка версионирования объектов, дополнительных реквизитов и других общих настроек.</value>
+    </toolTip>
+    <shortcut></shortcut>
+  </commands>
+  <commands uuid="9bf2525c-e8fc-44e6-ac14-7df3208dbb0f">
+    <name>НастройкиПользователейИПрав</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки пользователей и прав</value>
+    </synonym>
+    <comment></comment>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <toolTip>
+      <key>ru</key>
+      <value>Администрирование пользователей, настройка групп доступа, предоставление доступа для внешних пользователей, управление пользовательскими настройками.</value>
+    </toolTip>
+    <shortcut></shortcut>
+  </commands>
+  <commands uuid="8da88422-a445-4cb6-9d5e-bbb41e0d357c">
+    <name>НастройкиСинхронизацииДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки синхронизации данных</value>
+    </synonym>
+    <comment></comment>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <toolTip>
+      <key>ru</key>
+      <value>Настройка синхронизации данных с другими программами
+и организация совместной работы в распределенной информационной базе.</value>
+    </toolTip>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:DataProcessor>

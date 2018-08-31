@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="af5db15c-c70b-4572-8c49-a43eb0d75aeb">
+  <producedTypes>
+    <refType typeId="380af18c-2746-4dec-bacc-d4ad1ef05466" valueTypeId="350b36ae-d1f0-4d0b-a4a0-f87bd5039e69"/>
+    <listType typeId="0f04f662-7fae-4189-9201-6c9853d2a22c" valueTypeId="986af2c1-ab7c-4840-91fe-29810b872718"/>
+    <managerType typeId="78a24e36-dfde-4f78-8f59-d89e544edb7a" valueTypeId="5756d7b4-2087-45e6-ba47-53a184ee949e"/>
+  </producedTypes>
+  <name>ТипыЭлементовОписания</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы элементов описания</value>
+  </synonym>
+  <comment></comment>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="f0ebe9ed-0293-4e4e-840a-17525da7c8a8">
+    <name>ПростойТекст</name>
+    <synonym>
+      <key>ru</key>
+      <value>Простой текст</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="0b617623-3f9a-4eac-a48f-c17c9bca43a0">
+    <name>ОписаниеОбъектаФормата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание объекта формата</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="7d61498e-026d-415b-a314-2ef5f909b9ea">
+    <name>Заголовок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заголовок</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

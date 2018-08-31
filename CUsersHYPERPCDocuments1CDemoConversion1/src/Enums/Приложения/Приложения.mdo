@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1978581a-b8af-4df7-996a-737155d0c253">
+  <producedTypes>
+    <refType typeId="26bd33ab-74fa-41d5-928a-d7bd82fcd052" valueTypeId="eebb7ad0-2f3a-4bc7-93e7-c0896a35ec4e"/>
+    <listType typeId="9febd843-5990-4a7a-ba61-5f1f1162228a" valueTypeId="d22b286e-9221-4e0f-8a18-2b748376af98"/>
+    <managerType typeId="7e8ce4fc-3868-4836-a4d4-860ff073880d" valueTypeId="bc5796d9-1479-4183-a6b0-fbfd32b24ce3"/>
+  </producedTypes>
+  <name>Приложения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Приложения</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>QuickChoice</choiceMode>
+  <enumValues uuid="0c64f226-5db8-43b9-8a80-1d51aa4be530">
+    <name>Предприятие77</name>
+    <synonym>
+      <key>ru</key>
+      <value>1С:Предприятие 7.7</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="333802d0-ee60-4037-8136-ace3445ed221">
+    <name>Предприятие80</name>
+    <synonym>
+      <key>ru</key>
+      <value>1С:Предприятие 8</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="879b0394-e557-438c-90ff-f48b214b6521">
+    <name>УправляемоеПриложение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Управляемое приложение</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

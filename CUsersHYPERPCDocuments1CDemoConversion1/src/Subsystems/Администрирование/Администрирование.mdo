@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="62ee027b-8957-4b06-961c-f54ab203b0bd">
+  <name>Администрирование</name>
+  <synonym>
+    <key>ru</key>
+    <value>Администрирование</value>
+  </synonym>
+  <comment></comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.Администрирование</picture>
+  </picture>
+  <content>ExchangePlan.Полный</content>
+  <content>DataProcessor.ПанельАдминистрированияБСП</content>
+  <content>8f04e3f8-16c9-435a-bb48-69b8b1ee2bf6</content>
+  <content>DataProcessor.УдалениеПомеченныхОбъектов</content>
+  <content>DataProcessor.ГрупповоеИзменениеРеквизитов</content>
+  <content>DataProcessor.ЖурналРегистрации</content>
+  <subsystems>Администрирование</subsystems>
+  <subsystems>НастройкиПрограммы</subsystems>
+</mdclass:Subsystem>

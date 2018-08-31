@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="182dcbf3-31a2-4554-86aa-adcfe0bf25a1">
+  <producedTypes>
+    <objectType typeId="21b6cfbc-ab69-4498-887a-1338caaf5c52" valueTypeId="a6c74cf3-653a-4bcb-b285-f83229be507d"/>
+    <managerType typeId="77082e6d-4ae9-47c6-95eb-c3b10e63fa85" valueTypeId="c71377d2-e132-4db6-ae2e-df78e721aef2"/>
+  </producedTypes>
+  <name>КопированиеСоставаКонвертаций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Копирование состава конвертаций</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.КопированиеСоставаКонвертаций.Form.Форма</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="69df900a-1d1d-4d5b-ae66-826394950bf3">
+    <name>КонвертацияИсточник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конвертация источник</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Конвертации</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Конвертация, которая является источником правил</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="2b42c74e-873e-42c1-b1b3-284a70f9e302">
+    <name>КонвертацияПолучатель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конвертация получатель</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Конвертации</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Конвертация, которая является получателем правил</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="5a7004ac-0cd5-4f69-8fef-bf08e3102dc1">
+    <name>ОбрабатыватьПОД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обрабатывать ПОД</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Обрабатывать Правила обработки данных</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="5af69d1f-98ec-4a22-bb34-e827776eb513">
+    <name>ОбрабатыватьПКО</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обрабатывать ПКО</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Обрабатывать Правила конвертации объектов</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="384a1a3e-d4cf-4553-a26a-104a2c61c41b">
+    <name>ОбрабатыватьПКПД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обрабатывать ПКПД</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Обрабатывать Правила конвертации предопределенных данных</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="9469d960-ea01-4c47-afcf-b0b9733efd79">
+    <name>ОбрабатыватьАлгоритмы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обрабатывать алгоритмы</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Обрабатывать алгоритмы при заполнении</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="6341a063-58a9-4379-a5cd-8fee4724ae05">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

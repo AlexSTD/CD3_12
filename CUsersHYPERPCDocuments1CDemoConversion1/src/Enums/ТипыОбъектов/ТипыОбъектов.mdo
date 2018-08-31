@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b00d3374-fba3-4dfd-a8b9-2e9192589501">
+  <producedTypes>
+    <refType typeId="ebd7ceb9-54c3-43be-a605-9e2ef520b54e" valueTypeId="297cade9-4dbe-41cf-a27c-b6cafb1405b6"/>
+    <listType typeId="5a8d08de-9408-4402-b454-9956bce674f0" valueTypeId="ab87f2ad-25f8-4092-ad1a-7bf652f997f5"/>
+    <managerType typeId="30a32dc1-340a-4067-9b34-913166874979" valueTypeId="c3d40479-f7d5-4ac0-b6c9-84bd68e47eba"/>
+  </producedTypes>
+  <name>ТипыОбъектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы объектов</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>QuickChoice</choiceMode>
+  <enumValues uuid="9a8e9e82-d92a-4009-b106-ec0dad7bbfdc">
+    <name>БизнесПроцесс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Бизнес процесс</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="28f6293b-0a76-4f8d-b741-d6a86e461c95">
+    <name>Булево</name>
+    <synonym>
+      <key>ru</key>
+      <value>Булево</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="bf7d940d-ea2d-4e76-9a9b-17544835afee">
+    <name>ВидРасчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид расчета</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="b65ce0b2-9d46-44a6-8beb-4b6114c07627">
+    <name>ВидСубконто</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид субконто</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="85dae71e-5343-4aa2-ad48-5bafd0e77bf1">
+    <name>Дата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="f39eb3b4-764d-4e49-9149-79a08def2a0e">
+    <name>Документ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="d4ec2030-fa42-4716-a9e9-87a282796ebb">
+    <name>Задача</name>
+    <synonym>
+      <key>ru</key>
+      <value>Задача</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="e9c9cdde-31d5-466a-8094-8daef78326cd">
+    <name>Календарь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Календарь</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="2d9a11d0-2d18-4754-be2a-54378bd16f76">
+    <name>НаборКонстант</name>
+    <synonym>
+      <key>ru</key>
+      <value>Набор констант</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="3cc366d1-dec6-4c40-bc75-a26c1cc4d307">
+    <name>Перечисление</name>
+    <synonym>
+      <key>ru</key>
+      <value>Перечисление</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="b3b69793-028f-4701-963c-d2e5302d5e7b">
+    <name>ПланВидовРасчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>План видов расчета</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="3817b5d5-5de7-4f12-85c4-5037b01e683d">
+    <name>ПланВидовХарактеристик</name>
+    <synonym>
+      <key>ru</key>
+      <value>План видов характеристик</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="e46ff655-d737-4f7e-99a8-70bdd157c150">
+    <name>ПланОбмена</name>
+    <synonym>
+      <key>ru</key>
+      <value>План обмена</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="556282ca-df4a-4d71-b417-48193ff98076">
+    <name>ПланСчетов</name>
+    <synonym>
+      <key>ru</key>
+      <value>План счетов</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="ba8c9655-94d1-4e45-9c01-c885e9ab70f4">
+    <name>РегистрБухгалтерии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регистр бухгалтерии</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="17b4e00e-2b6e-4aa6-84bc-f1df0fbb541a">
+    <name>РегистрНакопления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регистр накопления</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="4fcd69f1-7960-46ac-9244-96af124018da">
+    <name>РегистрРасчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регистр расчета</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="0717bb96-77e0-41ff-ac82-c40d791e2023">
+    <name>РегистрСведений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регистр сведений</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="61c264b5-4a1a-4a85-9134-71d05b5ef74f">
+    <name>Справочник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Справочник</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="c96f080e-8e03-46df-92cf-899101180ccb">
+    <name>Строка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Строка</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="666398bf-eff8-4172-9c11-f7e1a1382499">
+    <name>ТочкаМаршрутаБизнесПроцесса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Точка маршрута бизнес процесса</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="edc93a94-df17-4565-a085-b9635011d6e4">
+    <name>УникальныйИдентификатор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уникальный идентификатор</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="0ef44e26-9f8a-4f9f-af9f-b045c498816a">
+    <name>ХранилищеЗначения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Хранилище значения</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="52776854-ef3f-4d53-9b46-b1f5921f3db5">
+    <name>Число</name>
+    <synonym>
+      <key>ru</key>
+      <value>Число</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e9249a8a-888b-4af3-b7c3-4f4cc99b22fc">
+  <name>Конвертации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Конвертации</value>
+  </synonym>
+  <comment></comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.Конвертации</picture>
+  </picture>
+  <content>Catalog.ПравилаКонвертацииОбъектов</content>
+  <content>Catalog.ПравилаОбработкиДанных</content>
+  <content>Catalog.Конвертации</content>
+  <content>Catalog.ПравилаКонвертацииПредопределенныхДанных</content>
+  <content>Catalog.ГруппыПравил</content>
+  <content>Catalog.Алгоритмы</content>
+  <content>Catalog.СоставыКонвертаций</content>
+  <content>DataProcessor.ВыгрузкаМодуля</content>
+  <content>DataProcessor.ЗагрузкаОбработчиков</content>
+  <content>DataProcessor.КопированиеСоставаКонвертаций</content>
+  <content>DataProcessor.НастройкаПравилОбмена</content>
+  <content>DataProcessor.НастройкаПравилКонвертацииСвойств</content>
+  <content>CommonForm.ВыборДополнительныхУсловий</content>
+  <content>CommonForm.ВыборКонфигурацийИсточникаПриемника</content>
+  <content>CommonCommand.НастройкаПравилКонвертации</content>
+  <content>DataProcessor.ПомощникБыстрогоОсвоения</content>
+  <content>DataProcessor.ЗагрузкаПравилСинхронизацииИзФайлов</content>
+  <content>DataProcessor.УдалениеКонвертации</content>
+  <content>DataProcessor.ОбособлениеКонвертации</content>
+  <content>Role.ТолькоПросмотр</content>
+  <content>ExchangePlan.РабочиеМеста</content>
+  <content>DataProcessor.ВыгрузкаМодуляВерсии1</content>
+  <content>bb97e8bf-9a47-4ee5-bf47-f8419b018361</content>
+</mdclass:Subsystem>
